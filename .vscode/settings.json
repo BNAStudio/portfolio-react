@@ -1,7 +1,7 @@
 {
 	"files.exclude": {
 		"**/node_modules": true,
-		"**/src/*.*": true,
+		"**/src/*.*": false,
 		"**.eslintignore": true,
 		"**.eslintrc.cjs": true,
 		"**.gitignore": false,

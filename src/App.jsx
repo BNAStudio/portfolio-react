@@ -1,8 +1,28 @@
+import {
+	Header,
+	Nav,
+	About,
+	Experience,
+	Services,
+	Portfolio,
+	Testimonials,
+	Contact,
+	Footer,
+} from "../src/components/index.jsx";
+
 const App = () => {
 	return (
-		<div>
-			<h1>REACT TEMPLATE</h1>
-		</div>
+		<>
+			<Header />
+			<Nav />
+			<About />
+			<Experience />
+			<Services />
+			<Portfolio />
+			<Testimonials />
+			<Contact />
+			<Footer />
+		</>
 	);
 };
 

@@ -1,4 +1,5 @@
 // import PropTypes from "prop-types";
+import "./Header.css";
 import HeaderSocial from "./HeaderSocial";
 import CTA from "./CTA";
 import MySelf from "../../assets/myself.png";

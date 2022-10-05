@@ -2,7 +2,7 @@
 import "./Header.css";
 import HeaderSocial from "./HeaderSocial";
 import CTA from "./CTA";
-import MySelf from "../../assets/myself.png";
+import HeaderCat from "./HeaderCat";
 
 const Header = () => {
 	return (
@@ -13,10 +13,8 @@ const Header = () => {
 				<h5 className="text-light">FrontEnd Developer </h5>
 				<CTA />
 				<HeaderSocial />
-				<div className="myself">
-					<img src={MySelf} alt="portfolio author image" />
-				</div>
-				<a href="#contact" className="scroll-down">
+				<HeaderCat />
+				<a href="#contact" className="scroll__down">
 					Scroll down
 				</a>
 			</div>

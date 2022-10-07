@@ -1,7 +1,7 @@
 // import PropTypes from "prop-types";
 
 const Portfolio = () => {
-	return <div>Portfolio</div>;
+	return <section id="portfolio">Portfolio</section>;
 };
 
 Portfolio.propTypes = {};

@@ -1,7 +1,11 @@
 // import PropTypes from "prop-types";
 
 const Contact = () => {
-	return <div>Contact</div>;
+	return (
+		<section id='contact'>
+			Contact
+		</section>
+	);
 };
 
 Contact.propTypes = {};

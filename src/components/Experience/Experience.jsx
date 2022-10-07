@@ -1,7 +1,11 @@
 // import PropTypes from "prop-types";
 
 const Experience = () => {
-	return <div>Experience</div>;
+	return (
+		<section id="experience">
+			Experience
+		</section>
+	);
 };
 
 Experience.propTypes = {};

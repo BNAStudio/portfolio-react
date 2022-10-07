@@ -51,7 +51,7 @@ header {
 }
 
 /*--- Header Cat ---*/
-.circles {
+/* .circles {
 	position: absolute;
 	top: 150px;
 	width: 150px;
@@ -59,7 +59,7 @@ header {
 	background-color: red;
 	opacity: 0.5;
 	border-radius: 50%;
-}
+} */
 
 .scroll__down {
 	position: absolute;

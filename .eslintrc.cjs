@@ -22,5 +22,6 @@ module.exports = {
 	plugins: ["react"],
 	rules: {
 		"react/no-unescaped-entities": 0,
+		"eslint react/prop-types": "disable"
 	},
 };

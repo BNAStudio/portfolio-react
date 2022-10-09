@@ -86,4 +86,7 @@ header {
 	.scroll__down {
 		display: none;
 	}
+	.myself {
+		padding: 0;
+	}
 }

@@ -1,7 +1,9 @@
 // import PropTypes from "prop-types";
 
 const Testimonials = () => {
-	return <div>Testimonials</div>;
+	return (
+		<section id='testiomonials'>Testimonials</section>
+	);
 };
 
 Testimonials.propTypes = {};

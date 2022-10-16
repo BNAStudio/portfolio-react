@@ -14,7 +14,7 @@ Personal project developed with ReactJS and Tailwind
 
 ### Screenshot
 
-![Image text](URL)
+![portfolio](./src/assets/screenShot.PNG)
 
 ## Technologies
 
@@ -22,17 +22,17 @@ Personal project developed with ReactJS and Tailwind
 
 A list of technologies used within the project:
 
-- [Technologie name](https://es.reactjs.org/): Version 18.2.0
-- [Technologie name](https://tailwindcss.com/): Version 3.0
-- [Library name](https://eslint.org/): Version 8.24.0
-- [Library name](https://prettier.io/): Version 2.7.1
-- [Library name](https://github.com/commitizen/cz-cli): Version 4.2.5
+- [REACTJS](https://es.reactjs.org/) : Version 18.2.0
+- [vite](https://https://vitejs.dev/) : Version 3.1.8
+- [Library name](https://eslint.org/) : Version 8.24.0
+- [Library name](https://prettier.io/) : Version 2.7.1
+- [Library name](https://github.com/commitizen/cz-cli) : Version 4.2.5
 
 ## Installation
 
 ```
 $ git clone https://github.com/BNAStudio/portfolio-react-tailwind
-$ cd ./portfolio-react-tailwind
+$ cd ./portfolio-react
 $ npm install
 $ npm start
 ```

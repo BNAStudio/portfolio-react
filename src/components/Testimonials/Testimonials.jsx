@@ -1,10 +1,8 @@
 // import PropTypes from "prop-types";
 import "./Testimonials.css";
 import imageProject from "../../assets/myself.png";
-// import Swiper core and required modules
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -43,15 +41,14 @@ const Testimonials = () => {
 
 			<Swiper
 				className="container testimonials-container"
-				// install Swiper modules
 				modules={[Pagination]}
 				spaceBetween={40}
 				slidesPerView={1}
 				navigation
 				pagination={{ clickable: true }}
 				scrollbar={{ draggable: true }}
-				onSwiper={swiper => console.log(swiper)}
-				onSlideChange={() => console.log("slide change")}
+				// onSwiper={swiper => console.log(swiper)}
+				// onSlideChange={() => console.log("slide change")}
 			>
 				{data.map(({ avatar, name, review }, index) => {
 					return (
